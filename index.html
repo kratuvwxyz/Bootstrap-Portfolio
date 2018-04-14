@@ -3,6 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
 	<!--Reset CSS-->
@@ -10,12 +11,38 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 	<!--Developer CSS-->
-    
-    
-    
+   
+	<style>
+	.fa {
+	padding: 23px;
+	}
+	.fa-facebook:hover {
+	background: #3B5998;
+	color: white;
+	text-decoration: none;
+	}
+	.fa-linkedin:hover {
+	background: #007bb5;
+	color: white;
+	text-decoration: none;
+	}
+	.fa-github:hover {
+	background: red;
+	color: white;
+	text-decoration: none;
+	}
+	.fa-twitter:hover {
+	background: #55ACEE;
+	color: white;
+	text-decoration: none;
+	}	
+	</style>
 
     <title>Bootstrap-Portfolio</title>
+    
   </head>
   <body>
 <!--  nav-->
@@ -42,24 +69,70 @@
 <!--   body-->
     
     <div class="container">
-    	<div class="row">
-    		<div class="col-lg-12">
-    			<div class="jumbotron" style="background-color: white;">
-				  <h1 class="display-4">About Me</h1>  
-				  <hr class="my-4">
-				  <div class="row">
-				  	<div class="col-lg-8"></div>
-				  	<div class="col-lg-4"></div>
-				  </div>
-				  
+<!--    jumbotron-->
+   	<div class="row">
+   		<div class="col-lg-12">
+    		<div class="jumbotron" style="background-color: white;">
+				<h1 class="display-4">About Me</h1>  
+		 		<hr class="my-4">	
+			<!--   	designer profile-->
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="row">
+							<div class="col-lg-8">
+								<div class="row">
+									<div class="col-lg-4 d-md-none d-lg-block">
+										<img src="../../../week-2/Saturday/Basic-Portfolio/assets/images/kdesai01.jpg" class="rounded float-left" alt="Kratu Desai" width="100%"><h5 style="line-height: 2em;">Kratu Desai</h5> 	
+									</div><div class="col-lg-4 d-none d-md-block d-lg-none d-xl-none">
+										<img src="images/kratu-aus.gif" class="rounded float-left" alt="Kratu Desai" width="100%"><h5 style="line-height: 2em;">Kratu Desai</h5> 	
+									</div>
+									<div class=".col-lg-8 media-body">
+											<p style="letter-spacing: .02em;" class="p-3"><b>Creative</b> by passion, <b>Designer</b> by profession, <b>Artist</b> by choice<span style="color: red;">. &#8267;</span> Design must be simple to understand and emotionally effective. It is the core of any product and I contribute to creative industry by transforming an idea into design that makes you to think outside of box [Literally]<span style="color: red;">. &#8267;</span> I strive to deliver design that would be simple and clear, yet innovative and creative<span style="color: red;">.</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<h5><small class="text-muted"><b class="text-danger">&nbsp;&nbsp;Let's Get Social!&nbsp;&nbsp;</b></small></h5>
+								<div class="bg-light p-2 mb-0">
+									<a href="#" class="fa fa-facebook"></a>
+									<a href="#" class="fa fa-linkedin"></a>
+									<a href="#" class="fa fa-github"></a>
+									<a href="#" class="fa fa-twitter"></a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-    		</div>
-    	</div>
+		 		<hr class="my-4">	
+			<!--	DESAIGN STUDIO-->
+				<div class="row d-none d-md-block">
+							<div class="col-lg-12">
+							<img src="images/postage_desaignstudio.jpg" class="rounded float-left" alt="DESAIGN studio" width="100%"><a href="http://desaign.info/"><h5 style="line-height: 2em;">DESAIGN STUDIO</h5></a>
+							</div>
+				</div>
+		 		<hr class="my-4 d-none d-md-block">	
+			</div>
+
+   		</div>
+   	</div>
+
+  	</div>    
+    
+<!--    footer-->
+    
+    <footer>
+    <!--Copyright-->
+    <div class="footer-copyright text-center bg-danger text-capitalize text-white p-2 fixed-bottom">
+        
+        <a href="http://desaign.studio" class="text-capitalize text-white"> DESAIGN.STUDIO </a>© 2018 All rights reserved.
     </div>
+    <!--/.Copyright-->    </footer>
+    
+    
     
     
 
-    <!-- Optional JavaScript -->
+<!-- 	Optional JavaScript -->
     
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
