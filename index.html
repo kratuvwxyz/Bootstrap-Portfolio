@@ -1,143 +1,218 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+
+<!--#
+        ╥╥  DESIGNED AND DEVELOPED BY...
+        ║║ 
+        ║║ ╓╓──╖╖ ╓╓──── ────╖╖ ╓╖ ╓╓──╖╖ ╓╓──╖╖ TM
+        ║║ ║║  ║║ ║║         ║║ ╙╜ ║║  ║║ ║║  ║║
+	╓╓──╫╫ ╫╫──╜╜ ╙╙──╖╖ ╓╓──╫╫ ╖╖ ║║  ║║ ║║  ║║
+	║║  ║║ ║║         ║║ ║║  ║║ ║║ ║║  ║║ ║║  ║║
+	║║  ║║ ║║         ║║ ║║  ║║ ║║ ║║  ║║ ║║  ║║
+	║║  ║║ ╙╙──── ────╜╜ ╙╙──╜╜ ║║ ╙╙──╫╫ ╜╜  ║║
+	║║  ║║  HTTPS://DESAIGN.APP ║║     ║║     ╙╙ LLC
+	╙╙──╜╜  SINCE TWENTY ELEVEN ╙╙─ ───╜╜
+			Copyright © 2022
+			ALL RIGHTS RESERVED
+			--
+			Call: 1-860-DESAIGN
+			Mail: MEET@DESAIGN.STUDIO
+			Post: PO BOX 200001, AUSTIN TX 78720
+			--
+			Book an appointment with us at
+			https://calendly.com/desaignstudio
+			--
+			Follow us: #desaignstudio
+#-->
+
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+
+<html class="no-js" dir="ltr" lang="en-US">
+  <!--<![endif]-->
+
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-	<!--Reset CSS-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="format-detection" content="telephone=no"> -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <!-- ! just for auto-refresh or redirect use the following meta tag -->
+    <!-- <meta http-equiv="refresh" content="61"> -->
+    <!-- <meta http-equiv="refresh" content="0; url=http://website.com/" /> -->
+    <!-- ! -->
+    <!--basic page needs-->
+    <meta name="author" content="Desaign Studio" />
+    <meta name="description" content="Bootstrap Portfolio by Desaign Studio" />
+    <meta name="keywords" content="Bootstrap Portfolio, Desaign, Studio, Digital, Creative, Agency" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-	<!--Developer CSS-->
-   
-	<style>
-	.fa {
-	padding: 23px;
-	}
-	.fa-facebook:hover {
-	background: #3B5998;
-	color: white;
-	text-decoration: none;
-	}
-	.fa-linkedin:hover {
-	background: #007bb5;
-	color: white;
-	text-decoration: none;
-	}
-	.fa-github:hover {
-	background: red;
-	color: white;
-	text-decoration: none;
-	}
-	.fa-twitter:hover {
-	background: #55ACEE;
-	color: white;
-	text-decoration: none;
-	}	
-	</style>
+    <title>Bootstrap Portfolio | Desaign Studio</title>
 
-    <title>Bootstrap-Portfolio</title>
-    
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <!-- ** Web Application Manifest -->
+    <!-- <link rel="manifest" href="./manifest.json" /> -->
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Color Picker by Desaign Studio" />
+    <link rel="icon" sizes="192x192" href="https://desaign.app/clients/cli/images/1x/favicon.ico" />
+    <link rel="shortcut icon" sizes="192x192" href="https://desaign.app/clients/cli/images/1x/favicon.ico" />
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Color Picker by Desaign Studio" />
+    <link rel="apple-touch-icon" href="https://desaign.app/clients/cli/images/1x/black.png" />
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="https://desaign.app/clients/cli/images/1x/blue.png" />
+    <meta name="msapplication-TileColor" content="#003355" />
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#003355" />
+
+    <!-- ** Humans Text -->
+    <!-- <link type="text/plain" rel="author" href="./humans.txt" /> -->
+    <!-- ** Robots -->
+    <!-- <meta name="robots" content="noindex, nofollow" /> -->
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://desaign.app/clients/cli/css/normalize.css" />
+
+    <!-- JQuery -->
+    <script src="https://desaign.app/clients/cli/js/jquery.js" type="text/javascript"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://desaign.app/clients/cli/css/bootstrap.css" />
+    <script src="https://desaign.app/clients/cli/js/bootstrap.js" type="text/javascript"></script>
+
+    <!-- Developer CSS -->
+    <!-- # -->
+    <style>
+      .svg-icon {
+        width: 1.5em;
+        height: 1.5em;
+      }
+
+      .svg-icon path,
+      .svg-icon polygon,
+      .svg-icon rect {
+        fill: #4691f6;
+      }
+
+      .svg-icon circle {
+        stroke: #4691f6;
+        stroke-width: 1;
+      }
+    </style>
+
+    <!-- GOOGLE Analytics -->
+    <!-- # -->
+
+    <!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
-<!--  nav-->
+    <!-- header -->
+    <!--  nav-->
     <div class="container">
-    	<div class="row">
-    		<div class="col-lg-12">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			  <a class="navbar-brand" href="#">Kratu Desai</a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			  </button>
-			  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-				<div class="navbar-nav justify-content-end">
-				  <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-				  <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-				  <a class="nav-item nav-link" href="contact.html">Contact</a>
-				</div>
-			  </div>
-			</nav>    		
-   			</div>
-    	</div>
+      <div class="row">
+        <div class="col-lg-12">
+          <nav class="navbar navbar-light bg-white">
+            <a class="navbar-brand" href="https://desaigner.info" target="_blank">ABOUT <b>KRATU DESAI</b> </a>
+            <div class="justify-content-end">
+              <button class="navbar-toggler border-0 m-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                  <path
+                    fill="none"
+                    d="M5.029,1.734h10.935c0.317,0,0.575-0.257,0.575-0.575s-0.258-0.576-0.575-0.576H5.029
+                            c-0.318,0-0.576,0.258-0.576,0.576S4.711,1.734,5.029,1.734z M1,5.188V19h18.417V5.188H1z M18.266,17.849H2.151V6.338h16.115
+                            V17.849z M2.727,4.036H17.69c0.317,0,0.575-0.257,0.575-0.576c0-0.318-0.258-0.575-0.575-0.575H2.727
+                            c-0.318,0-0.576,0.257-0.576,0.575C2.151,3.779,2.409,4.036,2.727,4.036z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </nav>
+          <div class="collapse" id="navbarToggleExternalContent">
+            <div class="navbar-nav justify-content-end">
+              <a class="nav-item nav-link" href="https://desaigner.info" target="_blank">Portfolio</a>
+              <a class="nav-item nav-link" href="https://desaign.app/contact-us.html" target="_blank">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-md-12">
+          <div class="container m-0 p-0">
+            <div class="row">
+              <div class="col-lg-4 d-md-none d-lg-block">
+                <img src="images/kdesai01.jpg" class="rounded float-left" alt="Kratu Desai" width="100%" />
+                <div class="h5 mt-3">KRATU DE<span class="text-danger">SAI</span></div>
+              </div>
+              <div class="col-lg-4 d-none d-md-block d-lg-none d-xl-none">
+                <img src="images/kratu-aus.gif" class="rounded float-left" alt="Kratu Desai" width="100%" />
+                <div class="h5 mt-3">KRATU DE<span class="text-danger">SAI</span></div>
+              </div>
+              <div class="col-lg-8">
+                <p style="letter-spacing: 0.02em" class="pl-3 pr-3"><b>Creative</b> by perfection, <b>Designer</b> by profession, <b>Artist</b> by passion<span class="text-danger">. &#8267;</span> Design must be simple to understand and emotionally effective. It is the core of any product and I contribute to creative industry by transforming an idea into design that makes you to think outside of box<span class="text-danger">. &#8267;</span> I strive to deliver design that would be simple and clear, yet innovative and creative<span class="text-danger">.</span></p>
+                <div>
+                  <h4>
+                    Founder and CEO of
+                    <a href="https://desaign.app" target="_blank" class="text-decoration-none"> DESAIGN.STUDIO </a>
+                  </h4>
+                  <img src="./images/postage-desaign-banner.png" alt="DESAIGN STUDIO" width="100%" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 pt-3 pt-lg-0">
+          <div class="container m-0 p-0">
+            <div class="row">
+              <div class="col">
+                <h6 class="d-flex justify-content-end">Let's Get Social!</h6>
+                <div class="d-flex justify-content-end">
+                  <a href="https://instagram.com/kratudesai" target="_blank">
+                    <svg class="svg-icon m-1" viewBox="0 0 20 20">
+                      <path fill="none" d="M17.835,0.438H2.29c-0.954,0-1.727,0.773-1.727,1.727V17.71c0,0.954,0.773,1.728,1.727,1.728h15.545c0.954,0,1.728-0.773,1.728-1.728V2.165C19.562,1.211,18.789,0.438,17.835,0.438 M18.699,17.71c0,0.477-0.388,0.864-0.864,0.864H2.29c-0.477,0-0.863-0.388-0.863-0.864V2.165c0-0.477,0.387-0.863,0.863-0.863h15.545c0.477,0,0.864,0.387,0.864,0.863V17.71zM12.653,5.619H7.472c-0.954,0-1.728,0.773-1.728,1.728v5.182c0,0.954,0.773,1.728,1.728,1.728h5.182c0.954,0,1.728-0.773,1.728-1.728V7.347C14.381,6.393,13.607,5.619,12.653,5.619 M11.79,6.915h1.295V8.21H11.79V6.915z M10.062,8.21c0.954,0,1.728,0.773,1.728,1.727s-0.773,1.728-1.728,1.728c-0.954,0-1.727-0.773-1.727-1.728S9.109,8.21,10.062,8.21M13.518,12.528c0,0.478-0.388,0.863-0.864,0.863H7.472c-0.477,0-0.864-0.386-0.864-0.863V9.505h0.907C7.491,9.647,7.472,9.79,7.472,9.938c0,1.432,1.16,2.591,2.591,2.591c1.432,0,2.591-1.159,2.591-2.591c0-0.148-0.02-0.291-0.044-0.432h0.908V12.528z"></path>
+                    </svg>
+                  </a>
+                  <a href="https://facebook.com/kratudesai" target="_blank">
+                    <svg class="svg-icon m-1" viewBox="0 0 20 20">
+                      <path fill="none" d="M17.675,0.62H2.327c-0.942,0-1.706,0.764-1.706,1.706v15.348c0,0.941,0.764,1.705,1.706,1.705h15.348c0.941,0,1.705-0.764,1.705-1.705V2.326C19.38,1.384,18.616,0.62,17.675,0.62 M18.526,17.674c0,0.471-0.381,0.852-0.852,0.852H2.327c-0.471,0-0.853-0.381-0.853-0.852V2.326c0-0.471,0.382-0.853,0.853-0.853h15.348c0.471,0,0.852,0.382,0.852,0.853V17.674zM10.849,7.975c0-0.345,0.035-0.531,0.565-0.531h0.709V6.162h-1.134c-1.364,0-1.844,0.642-1.844,1.721v0.834h-0.85V10h0.85v3.838h1.701V10h1.134l0.151-1.283h-1.285L10.849,7.975z"></path>
+                    </svg>
+                  </a>
+                  <a href="https://twitter.com/kratutter" target="_blank">
+                    <svg class="svg-icon m-1" viewBox="0 0 20 20">
+                      <path fill="none" d="M14.528,6.716c-0.342,0.199-0.721,0.344-1.122,0.422c-0.322-0.338-0.78-0.549-1.288-0.549c-0.977,0-1.767,0.779-1.767,1.738c0,0.136,0.016,0.268,0.046,0.396C8.929,8.65,7.628,7.958,6.757,6.906C6.605,7.164,6.518,7.462,6.518,7.781c0,0.602,0.312,1.135,0.785,1.446C7.014,9.218,6.742,9.14,6.504,9.01c0,0.007,0,0.015,0,0.021c0,0.842,0.609,1.545,1.417,1.705c-0.148,0.039-0.304,0.061-0.465,0.061c-0.114,0-0.225-0.011-0.332-0.031C7.348,11.457,8,11.959,8.772,11.973c-0.605,0.467-1.366,0.744-2.193,0.744c-0.143,0-0.283-0.007-0.421-0.023c0.782,0.493,1.71,0.78,2.707,0.78c3.249,0,5.024-2.648,5.024-4.945c0-0.075-0.001-0.151-0.004-0.225c0.345-0.246,0.645-0.551,0.881-0.9c-0.317,0.138-0.656,0.231-1.014,0.274C14.116,7.462,14.396,7.122,14.528,6.716 M17.778,0.562H2.284c-0.951,0-1.722,0.771-1.722,1.722v15.494c0,0.951,0.771,1.722,1.722,1.722h15.494c0.951,0,1.722-0.771,1.722-1.722V2.284C19.5,1.333,18.729,0.562,17.778,0.562 M18.64,17.778c0,0.476-0.386,0.861-0.861,0.861H2.284c-0.475,0-0.861-0.386-0.861-0.861V2.284c0-0.475,0.386-0.861,0.861-0.861h15.494c0.476,0,0.861,0.386,0.861,0.861V17.778z"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-<!--   body-->
-    
-    <div class="container">
-<!--    jumbotron-->
-   	<div class="row">
-   		<div class="col-lg-12">
-    		<div class="jumbotron" style="background-color: white;">
-				<h1 class="display-4">About Me</h1>  
-		 		<hr class="my-4">	
-			<!--   	designer profile-->
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="row">
-							<div class="col-lg-8">
-								<div class="row">
-									<div class="col-lg-4 d-md-none d-lg-block">
-										<img src="images/kdesai01.jpg" class="rounded float-left" alt="Kratu Desai" width="100%"><h5 style="line-height: 2em; letter-spacing: 1px;">KRATU DE<span class="text-danger">SAI</span></h5> 	
-									</div><div class="col-lg-4 d-none d-md-block d-lg-none d-xl-none">
-										<img src="images/kratu-aus.gif" class="rounded float-left" alt="Kratu Desai" width="100%"><h5 style="line-height: 2em; letter-spacing: 1px;">KRATU DE<span class="text-danger">SAI</span></h5> 	
-									</div>
-									<div class=".col-lg-8 media-body">
-											<p style="letter-spacing: .02em;" class="pl-3 pr-3"><b>Creative</b> by passion, <b>Designer</b> by profession, <b>Artist</b> by choice<span class="text-danger">. &#8267;</span> Design must be simple to understand and emotionally effective. It is the core of any product and I contribute to creative industry by transforming an idea into design that makes you to think outside of box [Literally]<span class="text-danger">. &#8267;</span> I strive to deliver design that would be simple and clear, yet innovative and creative<span class="text-danger">.</span></p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4">
-								<h5><small class="text-muted"><b class="text-danger">&nbsp;&nbsp;Let's Get Social!&nbsp;&nbsp;</b></small></h5>
-								<div class="bg-light p-2 mb-0">
-									<a href="#" class="fa fa-facebook"></a>
-									<a href="#" class="fa fa-linkedin"></a>
-									<a href="#" class="fa fa-github"></a>
-									<a href="#" class="fa fa-twitter"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-		 		<hr class="my-4">	
-			<!--	DESAIGN STUDIO-->
-				<div class="row d-none d-md-block">
-							<div class="col-lg-12">
-							<img src="images/postage_desaignstudio.jpg" class="rounded float-left" alt="DESAIGN studio" width="100%"><a href="http://desaign.info/"><h5 style="line-height: 2em;">DESAIGN STUDIO</h5></a>
-							</div>
-				</div>
-		 		<hr class="my-4 d-none d-md-block">	
-			</div>
+    <!-- Footer -->
+    <div class="m-3 p-3">&nbsp;</div>
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark ps-3">
+      <a class="navbar-brand" href="https://desaign.app" target="_blank" style="font-size: 1rem !important">POWERED BY <span class="text-warning">DESAIGN.STUDIO</span></a>
+    </nav>
 
-   		</div>
-   	</div>
+    <!-- Developer JavaScripts -->
+    <!-- # -->
 
-  	</div>    
-    
-<!--    footer-->
-    
-    <footer>
-    <!--Copyright-->
-    <div class="footer-copyright text-center bg-danger text-capitalize text-white p-2 fixed-bottom">
-        
-        <a href="http://desaign.studio" class="text-capitalize text-white"> DESAIGN.STUDIO </a>© 2018 All rights reserved.
-    </div>
-    <!--/.Copyright-->    </footer>
-    
-    
-    
-    
-
-<!-- 	Optional JavaScript -->
-    
-    
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Desaign Loader -->
+    <!-- <script src="https://desaign.app/clients/cli/javascript/desaign-loader/desaign-loader.js"></script> -->
   </body>
 </html>
